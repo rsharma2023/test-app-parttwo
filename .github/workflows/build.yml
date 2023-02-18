@@ -3,7 +3,7 @@ on: push
 jobs:
   build-node:
   name: Build node application
-  funs-on: ubuntu-latest
+  runs-on: ubuntu-latest
   container: node:14
   steps:
     - run: node --version
