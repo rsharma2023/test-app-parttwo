@@ -2,7 +2,7 @@ name: Node basic build
 on: push
 jobs:
   build-node:
-    name: Build node application
+    name: Build node Application
     runs-on: ubuntu-latest
     container: node:14
     steps:
